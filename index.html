@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head>
+  <title>Distributed Tetris v0.1</title>
+  <style>
+    html {
+      background: #999999;
+    }
+    
+    #canvas {
+      display: block;
+      border: 1px solid #000000;
+    }
+  </style>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="tetris.js"></script>
+  <script src="tetris-client.js"></script>
+</head>
+
+<body>
+  <div id='game_canvas'>
+    <canvas id="canvas" width=500 height=500></canvas>
+  </div>
+</body>
+</html>
